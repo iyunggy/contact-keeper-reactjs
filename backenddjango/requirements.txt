@@ -1,0 +1,16 @@
+django==3.2
+# django-storages
+# boto3==1.16.56
+djangorestframework==3.12.4
+django-cors-headers
+djoser==2.1.0
+django-import-export==2.0.2
+# Pillow==8.3.0
+# requests
+# django-rest-swagger
+# drf-yasg  #swagger buat django 3 +
+# psycopg2-binary
+# django-crispy-forms==1.8.1
+# # restframework jwt
+# djangorestframework-simplejwt==4.7.2
+# gunicorn
