@@ -20,6 +20,7 @@ export default (state, action) => {
       };
     case REGISTER_SUCCESS:
     case LOGIN_SUCCESS:
+      console.log('login_success reducer', action.payload)
       localStorage.setItem('token', action.payload);
       return {
         ...state,
